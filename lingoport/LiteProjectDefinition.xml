@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- see  http://wiki.lingoport.com/index.php5?title=Globalyzer_Lite#The_.globalyzerrc_File -->
+<gzproject>
+  <login>
+    <username></username>
+    <password></password>
+    <server>https://www.globalyzer.com/gzserver</server>
+    <use-local-rulesets>true</use-local-rulesets>
+    <optional>
+      <proxy-user></proxy-user>
+      <proxy-password></proxy-password>
+      <proxy-host></proxy-host>
+      <proxy-port></proxy-port>
+    </optional>
+  </login>
+  <project-path>C:/Users/Olivier/git/gooddata-ui-sdk</project-path>
+  <project-name>gooddata-ui-sdk</project-name>
+  <report-path>globalyzer-lite-reports</report-path>
+  <report-type>ScanDetailedXML</report-type>
+  <report-priorities>C,1,2,3,4,5</report-priorities>
+  <data-dictionary-location></data-dictionary-location>
+  <filter-with-dictionary>true</filter-with-dictionary>
+  <scan-timeout>120</scan-timeout>
+  <generate-partial-results>true</generate-partial-results>
+  <save-history>false</save-history>
+  <scans>
+    <scan>
+      <scan-name>Gooddata First Draft JS</scan-name>
+      <ruleset-name>GoodData JS</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
+      <use-machine-learning>true</use-machine-learning>
+      <encoding>systemDefault</encoding>
+      <checks>
+        <embedded-strings>true</embedded-strings>
+        <locale-sensitive-methods>true</locale-sensitive-methods>
+        <general-patterns>true</general-patterns>
+        <static-file-references>true</static-file-references>
+      </checks>
+      <comments>
+        <todo>GLOBALYZER_TODO</todo>
+        <ignore-next-line>GLOBALYZER_IGNORE_NEXT_LINE</ignore-next-line>
+        <start-ignore>GLOBALYZER_START_IGNORE</start-ignore>
+        <end-ignore>GLOBALYZER_END_IGNORE</end-ignore>
+      </comments>
+      <scan-items>
+        <item>libs/sdk-ui</item>
+        <item>libs/sdk-ui-tests</item>
+        <item>libs/sdk-ui-charts</item>
+        <item>libs/sdk-ui-ext</item>
+        <item>libs/sdk-ui-all</item>
+        <item>libs/sdk-ui-geo</item>
+        <item>libs/sdk-ui-vis-commons</item>
+        <item>libs/sdk-ui-theme-provider</item>
+        <item>libs/sdk-ui-pivot</item>
+        <item>libs/sdk-ui-filters</item>
+        <item>libs/sdk-ui-kit</item>
+      </scan-items>
+    </scan>
+  </scans>
+</gzproject>
