@@ -5,7 +5,7 @@
   "visualizations.asc": "Ordre croissant",
   "visualizations.desc": "Ordre décroissant",
   "visualizations.of": "{page} sur {pagesCount}",
-  "visualizations.totals.dropdown.heading": "Ajouter un tout nouveau rang",
+  "visualizations.totals.dropdown.heading": "Ajouter rang nouveau",
   "visualizations.totals.dropdown.title.sum": "Somme",
   "visualizations.totals.dropdown.title.avg": "Moyenne",
   "visualizations.totals.dropdown.title.min": "Min",
